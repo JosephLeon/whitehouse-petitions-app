@@ -10,7 +10,7 @@ import UIKit
 
 class MasterViewController: UITableViewController {
 
-    var objects = [AnyObject]()
+    var objects = [[String: String]]()
 
 
     override func awakeFromNib() {
